@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toolbar-button</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            padding-top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
+        <div class="container">
+            <a href="#" class="navbar-brand">Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapes" data-bs-target="#navbar-content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-content">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">HTML5</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Geolocation</a>
+                            <a href="#" class="dropdown-item">Drag and Drop</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Motion</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">CSS3</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ECMScript</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Node.js</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">API</a></li>
+                </ul>
+                <from class="form-inline">
+                    <input type="text" class="form-control" placeholder="Search">
+                </from>
+                <ul class="navbar-nav">
+                    <li class="navbar-item"><a href="#" class="nav-link">Node.js</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">API</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

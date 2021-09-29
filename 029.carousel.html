@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모달(팝업창으로 보기)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <style>
+       img {
+          width: 100%;
+          max-width: 1400px;
+       }
+       .top-slide {
+          margin: 0 auto;
+          width: 920px;
+       }
+    </style>
+</head>
+<body>
+  <div class="top-slide">
+     <div class="carousel slide" id="jejuphoto">
+        <div class="carousel-indicators">
+           <button type="button" data-bs-target="#jejuphoto" 
+           data-bs-slide-to="0" class="active" aria-current="true"></button>
+
+           <button type="button" data-bs-target="#jejuphoto" 
+           data-bs-slide-to="1"></button>
+
+           <button type="button" data-bs-target="#jejuphoto" 
+           data-bs-slide-to="2"></button>
+        </div>
+        <div class="carouse-inner">
+           <div class="carousel-item active">
+            <img src="images/jeju1.JPG">
+            <div class="caroisel-caption">
+              <h4>서귀포 새연교</h4>
+              <p>제주의 봄은 하늘에도, 바다에도, 심지어 바람끝에도 묻어난다</p>
+           </div>
+        </div>
+        <div class="carouse-item">
+         <img src="images/jeju2.JPG">
+         <div class="caroisel-caption">
+            <h4>협제 해수욕장</h4>
+            <p>제주의 봄은 하늘에도, 바다에도, 심지어 바람끝에도 묻어난다</p>
+         </div>
+      </div>
+      <div class="carouse-item">
+         <img src="images/jeju3.JPG">
+         <div class="caroisel-caption">
+            <h4>산굼부리 억새밭</h4>
+            <p>제주의 봄은 하늘에도, 바다에도, 심지어 바람끝에도 묻어난다</p>
+         </div>
+      </div>
+     </div>
+     <a class="carousel-control-prev" href="#jejuphoto" data-bs-slide="prev">
+        <sapn class="carousel-control-prev-icon"></sapn>
+     </a>
+     <a class="carousel-control-next" href="#jejuphoto" data-bs-slide="next">
+      <sapn class="carousel-control-next-icon"></sapn>
+   </a>
+  </div>
+</div>
+</body>
+</html>

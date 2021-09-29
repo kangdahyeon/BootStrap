@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모달(팝업창으로 보기)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+   <!--버튼 클릭 시 모달창 열림-->
+  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#intro">모달창으로 보기</button>
+  <!--모달 창 영역-->
+  <!--modal : 모달 창 영역 설정 , fade : 열리는 애니메이션 효과-->
+  <div class="modal fade" id="intro" role="dialog" aria-labelledby="introHeader" aria-hidden="true" tabindex="-1">
+     <!--modal-dialog : 모달 창 영역 설정-->
+     <div class="modal-dialog">
+        <!--modal-content : 모달 창 콘텐츠 영역 설정-->
+        <div class="modal-content">
+           <!--madal-header : 헤더임-->
+           <div class="modal-header">
+              <h4 class="modal-title">새로운 소식</h4>
+           </div>
+           <!--madal-body : 바디임-->
+           <div class="modal-body">
+              <h3>채근담을 읽으세요</h3>
+              <p>북아메리카를 비롯한 북반구 전역에 분포하는 식물 및 열매. 북아메리카 등지에서 품종개량 등을 활발하게 한다. 
+               이름과 달리 딸기,라즈베리,블랙베리 등의 베리류와는 전혀 관계가 없는 진달래과 식물로,
+               진달래과에 속하는 베리로는 크랜베리(넌출월귤), 월귤(링곤베리), 빌베리등이 있다.</p>
+               <br>
+               <p>북아메리카를 비롯한 북반구 전역에 분포하는 식물 및 열매. 북아메리카 등지에서 품종개량 등을 활발하게 한다. 
+                  이름과 달리 딸기,라즈베리,블랙베리 등의 베리류와는 전혀 관계가 없는 진달래과 식물로,
+                  진달래과에 속하는 베리로는 크랜베리(넌출월귤), 월귤(링곤베리), 빌베리등이 있다.</p>
+               <br>
+               <p>북아메리카를 비롯한 북반구 전역에 분포하는 식물 및 열매. 북아메리카 등지에서 품종개량 등을 활발하게 한다. 
+                     이름과 달리 딸기,라즈베리,블랙베리 등의 베리류와는 전혀 관계가 없는 진달래과 식물로,
+                     진달래과에 속하는 베리로는 크랜베리(넌출월귤), 월귤(링곤베리), 빌베리등이 있다.</p>
+               <br>
+        </div>
+        <!--madal-footer : 맨밑임-->
+        <div class="modal-footer">
+           <button type="button" class="btn btn-primary" data-bs-dismiss="madal">닫기</button>
+        </div>
+     </div>
+  </div>
+</body>
+</html>
